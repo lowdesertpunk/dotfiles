@@ -1,0 +1,5 @@
+prefix="$HOME/local"
+CC=clang
+LDFLAGS="$LDFLAGS -L/usr/local/lib -L$HOME/local/lib"
+CFLAGS="$CPPFLAGS -I/usr/local/include -I$HOME/local/include"
+CPPFLAGS="$CFLAGS -I/usr/local/include -I$HOME/local/include"
